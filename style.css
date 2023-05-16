@@ -1,0 +1,64 @@
+body {
+    background-color: #7DCEA0;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.login-form h2 {
+    margin-bottom: 30px;
+}
+  
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.input-container i {
+    margin-right: 10px;
+}
+  
+input[type="text"], input[type="password"], input[type="number"] {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+  
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #1c5610;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+  
+.hidden {
+    display: none;
+}
+
+.banca-virtual {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.barra-banca{
+    padding: 20px 50px 20px 50px;
+    color: white;
+    background-color: #1c5610;
+    display: flex;
+}
+.barra-banca .logo-banca{
+    width: auto;
+}
